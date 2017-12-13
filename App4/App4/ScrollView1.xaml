@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.ScrollView1">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <BoxView BackgroundColor="Red" HeightRequest="250" WidthRequest="250" />
+                <BoxView BackgroundColor="Green" HeightRequest="250" WidthRequest="250" />
+                <BoxView BackgroundColor="Olive" HeightRequest="250" WidthRequest="250" />
+                <BoxView BackgroundColor="Gray" HeightRequest="250" WidthRequest="250" />
+                <Entry/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

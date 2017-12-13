@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Binding2"
+             Title="Binding2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="https://cdn1.iconfinder.com/data/icons/simple-icons/4096/apple-4096-black.png" 
+                   BindingContext="{x:Reference slider}"
+                   Rotation="{Binding Value}"/>
+            <Slider x:Name="slider"
+                    Maximum="360"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.ListView1"
+             Title="ListView" >
+    <ContentPage.Content>
+        <ListView x:Name="EmployeeView" BackgroundColor="Black" SeparatorColor="Blue">
+                  <ListView.Header>
+                      <StackLayout Orientation="Horizontal">
+                          <Label Text="Friends" TextColor="Orchid"/>
+                      </StackLayout>
+                  </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding DisplayName}" Detail="{Binding DisplayDetail}"
+                              DetailColor="Green"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

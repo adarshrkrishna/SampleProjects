@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Style1">
+    <ContentPage.Content>
+        <StackLayout Padding="0,20,0,0">
+            <StackLayout.Resources>
+                <ResourceDictionary>
+                    <Style x:Key="labelTextRed" TargetType="Label">
+                        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                        <Setter Property="TextColor" Value="Red" />
+                    </Style>
+                    <Style x:Key="labelTextGreen" TargetType="Label">
+                        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                        <Setter Property="TextColor" Value="Green" />
+                    </Style>
+                    <Style x:Key="labelTextBlue" TargetType="Label">
+                        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                        <Setter Property="TextColor" Value="Blue" />
+                    </Style>
+                    <Style x:Key="labelTextViolet" TargetType="Label">
+                        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                        <Setter Property="TextColor" Value="Violet" />
+                    </Style>
+                </ResourceDictionary>
+            </StackLayout.Resources>
+            <Label Text="My" Style="{StaticResource labelTextRed}" />
+            <Label Text="Name" Style="{StaticResource labelTextGreen}" />
+            <Label Text="is" Style="{StaticResource labelTextBlue}" />
+            <Label Text="Adarsh R Krishna" Style="{StaticResource labelTextBlue}"
+                   TextColor="Teal"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Carousel"
+              Title="Carousel Page">
+    <ContentPage BackgroundColor="Black">
+        <Image Source="https://static.boredpanda.com/blog/wp-content/uploads/2017/04/round-animals-102-58ef32f795809__700.jpg"
+               Aspect="AspectFill"/>
+    </ContentPage>
+    <ContentPage BackgroundColor="Black">
+        <Image Source="https://i.pinimg.com/originals/2a/cd/51/2acd5113f9b68335380b6cf23eab8e78.jpg"
+                   Aspect="AspectFill"/>
+    </ContentPage>
+    <ContentPage BackgroundColor="Black">
+        <Image Source="http://synchronicityaustralia.com.au/wp-content/uploads/2016/12/sfw_apa_2013_28342_232388_briankushner_blue_jay_kk_high.jpeg"
+                   Aspect="AspectFill"/>
+    </ContentPage>
+</CarouselPage>

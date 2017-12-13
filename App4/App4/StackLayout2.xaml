@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.StackLayout2">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" Margin="100">
+            <Label Text="Username" VerticalOptions="Center"
+                   HorizontalOptions="Center" TextColor="Black" />
+            <Entry />
+            <Label Text="Password" TextColor="Black" 
+                   VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Entry/>
+            <Button Text="Login" VerticalOptions="Center" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

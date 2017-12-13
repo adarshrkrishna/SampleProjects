@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.TabbedPage1">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Apple">
+        <StackLayout>
+            <Image Source= "https://cdn1.iconfinder.com/data/icons/simple-icons/4096/apple-4096-black.png"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Android">
+        <StackLayout>
+            <Image Source="https://icon-icons.com/icons2/873/PNG/512/android-with-guitar_icon-icons.com_68074.png"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Other">
+        <StackLayout>
+            <Image Source="https://www.apple.com/apple-events/september-2017/meta/og.png?201711031341"/>
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>

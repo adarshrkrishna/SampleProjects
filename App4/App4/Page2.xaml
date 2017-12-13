@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Page2" BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Lets goto Root Page"
+                   TextColor="BlueViolet"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   HeightRequest="100" WidthRequest="100"
+                   FontSize="Default" FontAttributes="Italic,Bold"/>
+            <Button Text="Back" Clicked="OnBackButton"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

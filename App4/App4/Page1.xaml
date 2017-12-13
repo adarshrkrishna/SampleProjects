@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Page1"
+             BackgroundColor="Black"
+             Title="Projects">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Button Text="ScrollView" Clicked="OnButton" BackgroundColor="Crimson"/>
+                <Button Text="Calculator" Clicked="OnCalculator" BackgroundColor="Crimson"/>
+                <Button Text="Login" Clicked="OnLogin" BackgroundColor="Crimson"/>
+                <Button Text="AbsoluteLayout" Clicked="OnAbsolute" BackgroundColor="Crimson"/>
+                <Button Text="TabbedPage" Clicked="OnTabbedPage" BackgroundColor="Crimson"/>
+                <Button Text="Binding" Clicked="OnBindingButton" BackgroundColor="Crimson"/>
+                <Button Text="ImageRotation" Clicked="OnImageButton" BackgroundColor="Crimson"/>
+                <Button Text="Binding3" Clicked="OnBindButton" BackgroundColor="Crimson"/>
+                <Button Text="Binding Collection" Clicked="OnCollectionButton" BackgroundColor="Crimson"/>
+                <Button Text="ListView" Clicked="OnListButton" BackgroundColor="Crimson"/>
+                <Button Text=" ImageList" Clicked="OnImage" BackgroundColor="Crimson"/>
+                <Button Text=" Assignment" Clicked="OnAssign" BackgroundColor="Crimson"/>
+                <Button Text=" ContextActions" Clicked="OnContxt" BackgroundColor="Crimson"/>
+                <Button Text=" CarouselPage" Clicked="OnCarousel" BackgroundColor="Crimson"/>
+                <Button Text="Entry" Clicked="OnEntry" BackgroundColor="Crimson"/>
+                <Button Text="Dependency" Clicked="OnDependency" BackgroundColor="Crimson"/>
+                <Button Text="MyDependency" Clicked="OnMyDependency" BackgroundColor="Crimson"/>
+                <Button Text="Style" Clicked="OnStyle" BackgroundColor="Crimson"/>
+                <Button Text="ImplicitStyle" Clicked="OnImplicitStyle" BackgroundColor="Crimson"/>
+                <Button Text="GlobalStyle" Clicked="OnGlobalStyle" BackgroundColor="Crimson" />
+                <Button Text="StyleInheritance" Clicked="OnStyleInheritance" BackgroundColor="Crimson" />
+                <Button Text="DynamicStyle" Clicked="OnDynamicStyle" BackgroundColor="Crimson" />
+                <Button Text=" Next" Clicked="OnNextButton" BackgroundColor="Orange"/>
+                <Button Text="Back" Clicked="OnBackButton" BackgroundColor="Orange"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

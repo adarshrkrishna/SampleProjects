@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.GlobalStyle">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="buttonOne"  Text="Button1" Style="{StaticResource buttonStyle}" 
+                    Clicked="OnButton1"/>
+            <Button x:Name="buttonTwo" Text="Button2" Style="{StaticResource buttonStyle}"
+                    Clicked="OnButton2" />
+            <Button x:Name="buttonThree"  Text="Button3" Style="{StaticResource buttonStyle}"
+                    Clicked="OnButton3"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

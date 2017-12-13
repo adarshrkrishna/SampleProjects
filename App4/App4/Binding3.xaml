@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Binding3">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Text="T" x:Name="label"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     FontAttributes="Bold"
+                     FontSize="80"
+                     TextColor="DarkTurquoise"
+                     Grid.Row="0"
+                     Grid.Column="0"/>
+            <Slider BindingContext="{x:Reference label}"
+                     Maximum="10"
+                     Value="{Binding Scale,Mode=TwoWay}"
+                     Grid.Row="1"
+                     Grid.Column="0"/>
+            <Slider BindingContext="{x:Reference label}"
+                     Maximum="360"
+                     Value="{Binding Rotation,Mode=OneWayToSource}"
+                     Grid.Row="2"
+                     Grid.Column="0"/>
+            <Slider BindingContext="{x:Reference label}"
+                     Maximum="360"
+                     Value="{Binding RotationX,Mode=OneWayToSource}"
+                     Grid.Row="3"
+                     Grid.Column="0"/>
+            <Slider BindingContext="{x:Reference label}"
+                     Maximum="360"
+                     Value="{Binding RotationY,Mode=OneWayToSource}"
+                     Grid.Row="4"
+                     Grid.Column="0"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
